@@ -1,0 +1,159 @@
+html *
+{
+   color: #000;
+   font-family:  sans-serif !important;
+    text-align: left !important;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    width:100%;
+}
+
+#up {
+    width: 100%;
+    height: 5%;
+    padding-top: 0.1%;
+    margin-top: 0.1%;
+}
+
+#logo {
+    width: 50%;
+    height: 40%;
+    margin-left: 0.5%;
+    padding-left: 0.5%; 
+}
+
+#fundo {
+    background-image:url("casa%20centro%202016.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position:absolute;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+#nothing {
+    width: 100%;
+    height: 450px; /*no other way*/
+}
+
+#one {
+    background-color: #FF6600;
+    width: 100%;
+    height: 50%;
+    opacity: 0.9;
+    position:relative;
+    padding-left: 1%;
+}
+
+#two {
+    background-color: #FF6600;
+    width: 100%;
+    height: 200%;
+    opacity: 0.9;
+    position: relative;
+    padding: 0.5%;
+}
+
+#Creche {
+    height: 30%;
+    width: 65%;
+    margin: 0%;
+    opacity: 1;
+}
+
+#CentroDia {
+    height: 45%;
+    width: 75%;
+    margin: 0%;
+    opacity: 1;
+}
+
+#SAD {
+    height: 25%;
+    width: 50%;
+    margin: 0%;
+    opacity: 1;
+}
+
+#middle {
+    height: 5px;
+    width: 100%;
+}
+
+#contacts {
+    background-color: #FF6600;
+    width: 100%;
+    height: 10%;
+    opacity: 0.9;
+    text-align: left;
+    position:relative;
+    padding-left: 1%;
+}
+
+#fb {
+    width: 50%;
+    height: 50%;
+    padding-left: 0.5%;
+    margin-left: 0.5%;
+}
+
+#menuimage {
+    width: 35%;
+    height: 50%;
+}
+
+ /* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #BDBDBD;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus {
+    color: #FF6600;
+}
+
+/* Position and style the close button (top right corner) */
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
